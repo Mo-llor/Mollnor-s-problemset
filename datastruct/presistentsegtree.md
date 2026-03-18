@@ -36,7 +36,7 @@ struct PersistentSegtree
     PersistentSegtree(int l,int r):max_(r),min_(l),root(1){info.push_back({0,0,{ie}});}//数据范围喵
 private:
     void pull(int p){info[p].v = info[info[p].ls].v + info[info[p].rs].v;}
-    int set(int p,int pos,int l,int r,Info x)
+    int set(int p,int pos,int l,int r,Info x)//这个是用来设置初始值的喵
     {
         if (!p)
         {
@@ -58,12 +58,12 @@ private:
         pull(p);
         return p;
     }
-    int operation(int p,int pos,int l,int r,Info x)
+    int operation(int p,int pos,int l,int r,Info x)//这个是修改喵
     {
         auto t = info[p];
         info.emplace_back(t);
         p = info.size() - 1;
-        if (l == r) {info[p].v = x;return p;}
+        if (l == r) {info[p].v = x;return p;}//这里就是具体修改的地方喵
         int mid = l + (r - l) / 2;
         if (pos <= mid)
         {
@@ -97,12 +97,12 @@ private:
         else return ksmall(k - cnt,info[u].rs,info[v].rs,mid + 1,r);
     }
 public:
-    void set(int pos,Info val) {root[0] = set(root[0],pos,min_,max_,val);}
-    void modify(int pos,Info val) {
+    void set(int pos,Info val) {root[0] = set(root[0],pos,min_,max_,val);}//这里是不增加新版本的设置初始值喵
+    void modify(int pos,Info val) {//这个是增加新版本的修改喵
         int newroot = operation(root.back(),pos,min_,max_,val);
         root.emplace_back(newroot);
     }
-    Info query(int q,int l,int r){return query(root[q],min_,max_,l,r);}
+    Info query(int q,int l,int r){return query(root[q],min_,max_,l,r);}//查询某个版本的区间喵
     int ksmall(int k,int l,int r){return ksmall(k,root[l - 1],root[r],min_,max_);}
 };
 ```
