@@ -1,3 +1,13 @@
+主席树最最经典的内容当然就是维护区间第k大了喵
+
+(可持久化线段树1)[https://www.luogu.com.cn/problem/P3919]
+
+(可持久化线段树2)[https://www.luogu.com.cn/problem/P3834]
+
+上面两个板题喵，就是用到了主席树最基础的两个作用喵，可持久化，和区间第k小喵
+
+还有一个用到了可持久化的题目就是(Enchanted)[https://codeforces.com/gym/105139/problem/F]其实这道题也挺板的来着，只是线段树处理数据的那部分有点难写喵
+
 下面是代码
 
 ```cpp
