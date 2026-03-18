@@ -96,3 +96,20 @@ public:
     int ksmall(int k,int l,int r){return ksmall(k,root[l - 1],root[r],min_,max_);}
 };
 ```
+
+当然主席树能维护的可不只有区间第k小或者区间第k大，主席树还能维护区间mex
+
+### 这里是主席树维护区间mex的函数喵
+
+```cpp
+    int mex(int lv,int rv,int l,int r)
+    {
+        //如果题目有要求的话，可以在这里加上防呆l>r
+        ll mid = l + (r - l) / 2;
+        if (l == r) return l;
+        ll mp = info[info[rv].ls].v.val;
+        if (mp < lv) return mex(lv,info[rv].ls,l,mid);
+        else return mex(lv,info[rv].rs,mid + 1,r);
+    }
+```
+代码很短喵，这时候主席树维护的还是权值线段树，知识里面存的是**每个元素出现的最大的下标**喵，同样是对数组建前缀树，知识因为维护的值不可减法，所以我们就可以维护
