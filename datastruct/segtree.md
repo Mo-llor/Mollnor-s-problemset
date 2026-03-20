@@ -20,8 +20,8 @@
 
 ## 线段树优化dp
 
-我见过的这个典题还是在atc的dp题单里的喵，但是我感觉我现在还没有理解透彻喵 (W - Intervals)[https://atcoder.jp/contests/dp/tasks/dp_w] 虽然看见区间操作我就往线段树上面想了，但是很显然我的dp算是最废物的那一档了喵
+我见过的这个典题还是在atc的dp题单里的喵，但是我感觉我现在还没有理解透彻喵 [W - Intervals](https://atcoder.jp/contests/dp/tasks/dp_w) 虽然看见区间操作我就往线段树上面想了，但是很显然我的dp算是最废物的那一档了喵
 
 ## 线段树优化建图
 
-都是小巧思唉唉，([JOIST 2023] 护照 / Passport)[https://www.luogu.com.cn/problem/P9331]
+都是小巧思唉唉，[[JOIST 2023] 护照 / Passport](https://www.luogu.com.cn/problem/P9331)
