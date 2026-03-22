@@ -4,4 +4,4 @@
 
 ## 基环树上dp喵
 
-[[JOISC 2013]_礼物_Presents](https://www.luogu.com.cn/problem/P14442) 可以dp但是可以贪心喵 [题解喵](/[JOISC_2013]_礼物_Presents.md)
+[[JOISC 2013]_礼物_Presents](https://www.luogu.com.cn/problem/P14442) 可以dp但是可以贪心喵 [题解喵]([JOISC_2013]_礼物_Presents.md)
