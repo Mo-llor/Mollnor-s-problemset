@@ -25,3 +25,5 @@
 ## 线段树优化建图
 
 都是小巧思唉唉，[[JOIST 2023] 护照 / Passport](https://www.luogu.com.cn/problem/P9331),我都不知道这个小trick在我的acm生涯里面都不知道能不能见到第二次了
+
+[题解喵](/tree/[JOIST_2023]_护照_Passport.md)感觉dij的思路和最后的一定要从叶子节点跑，每个思路光靠我自己就很难想到喵
