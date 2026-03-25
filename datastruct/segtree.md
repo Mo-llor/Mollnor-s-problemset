@@ -24,4 +24,4 @@
 
 ## 线段树优化建图
 
-都是小巧思唉唉，[[JOIST 2023] 护照 / Passport](https://www.luogu.com.cn/problem/P9331)
+都是小巧思唉唉，[[JOIST 2023] 护照 / Passport](https://www.luogu.com.cn/problem/P9331),我都不知道这个小trick在我的acm生涯里面都不知道能不能见到第二次了
