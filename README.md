@@ -13,6 +13,6 @@ There are some problems I hadn't understand
 
 # 位运算
 
-[位运算](bit\bits.md)
+[位运算](bit/bits.md)
 
 # 基础算法
