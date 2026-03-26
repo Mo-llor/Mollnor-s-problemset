@@ -4,4 +4,4 @@
 
 对于纯粹的位运算构造，我感觉需要对脑电波的偏多，当然，因为我太菜，所以才需要对脑电波喵,就比如这道题 [异或数组](https://codeforces.com/contest/2175/problem/B) 以及 [题解喵](/constructive_algorithms/Editorial/xor_array.md)
 
-还有位运算与数据结构结合的喵
+还有位运算与数据结构结合的喵[Enchanted](https://codeforces.com/gym/105139/problem/F)
