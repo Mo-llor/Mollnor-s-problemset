@@ -3,3 +3,27 @@
 对于这道题，我们看见区间和，自然可以想到前缀和，那么区间[l,r]的异或和为0，其他区间的异或和都不为0，那这就代表着 pre[r] ^ pre[l - 1] = 0 嘛
 
 那我们只要让这两个数字相同，其他数字都不同就好了喵，构造好前缀和就可以通过 pre[i] ^ pre[i - 1]来进行还原喵
+```cpp
+void solve()
+{	
+	int n,l,r;
+	cin>>n>>l>>r;
+	vector<int> pre(n + 1);
+	for (int i = 1 ; i <= n ; i++)
+	{
+		pre[i] = i;
+	}
+	pre[r] = pre[l - 1];
+	vector<int> a(n + 1);
+	for (int i = 1 ; i <= n ; i++)
+	{
+		a[i] = pre[i] ^ pre[i - 1];
+	}
+	for (int i = 1 ; i <= n ; i++)
+	{
+		cout<<a[i]<<' ';
+	}
+	cout<<'\n';
+	return;
+}
+```
