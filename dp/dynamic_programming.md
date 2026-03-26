@@ -6,7 +6,7 @@ dp的文档，我觉得是最不愁标题是怎么写的喵
 
 ## 01背包
 
-[挂饰](https://www.luogu.com.cn/problem/P4138) 
+[挂饰](https://www.luogu.com.cn/problem/P4138) [题解喵](dp/Editorial/挂饰.md)
 
 ## 完全背包
 
