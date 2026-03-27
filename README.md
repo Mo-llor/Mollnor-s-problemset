@@ -5,6 +5,7 @@ There are some problems I hadn't understand
 
 - [线段树](datastruct/segtree.md)
 - [主席树](datastruct/presistentsegtree.md)
+- [字典树](datastruct/trie.md)
 
 ## 构造王国
 
