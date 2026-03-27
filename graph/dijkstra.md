@@ -14,4 +14,4 @@
 
 比如[passport](tree/[JOIST_2023]_护照_Passport.md)这个要跑三次dij喵
 
-再比如 
+再比如 [虚空输电](https://acm.aiecnu.cn/contest/737/problem/10059) 这个跑的dij和上一题的第三次dij很像喵，都是把图上所有点放进优先队列里面然后再跑一次最短路喵
