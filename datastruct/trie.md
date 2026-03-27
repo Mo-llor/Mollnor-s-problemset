@@ -108,4 +108,4 @@ struct trie
 
 只要稍作变换就能做到查询异或和 $\leq k$ 的数量喵，就像是这道题喵，[Beautiful Subarrays](https://codeforces.com/contest/665/problem/E)
 
-字典树除了能查询最大异或对以外，最小异或对也可以喵，当然只要不像是
+字典树除了能查询最大异或对以外，最小异或对也可以喵，当然只要不像是 [这个](/bit/Editorial/cf106259d.md) 就行喵，因为显然最小的异或对一定是排完序之后相邻的那两个喵，但是我们并不是总能排完序之后遍历一遍喵，所以像是[虚空输电](https://acm.aiecnu.cn/contest/737/problem/10059)的情况，字典树的做法要比排序方便一点喵
