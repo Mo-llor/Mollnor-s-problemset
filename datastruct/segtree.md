@@ -29,3 +29,5 @@
 [题解喵](/tree/[JOIST_2023]_护照_Passport.md)感觉dij的思路和最后的一定要从叶子节点跑，每个思路光靠我自己就很难想到喵
 
 线段树优化建图的板应该是这个喵[Legacy](https://codeforces.com/contest/786/problem/B),没想到几天之内就能写到第二次喵,这道题要开两棵树，一个出树，一个入树喵[代码喵](/tree/Legacy.md)
+
+还有就是 [sensor](/tree/cf105385E.md#线段树喵) 这个想明白了之后就是线段树建图喵，只是要有lazy的思想喵
