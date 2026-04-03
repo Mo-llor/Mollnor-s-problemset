@@ -130,4 +130,4 @@ public:
 
 [换根区间lca](/tree/cf105911l.md)这题的在线做法就用到了这个东西喵
 
-主席树还能维护二维区间上的动态修改问题喵，就像是这个[Sensors](https://codeforces.com/gym/105385/problem/E) [题解喵](/tree/cf105385E.md)然后这道题还能用线段树来写喵
+主席树还能维护二维区间上的动态修改问题喵，就像是这个[Sensors](https://codeforces.com/gym/105385/problem/E) [题解喵](/tree/cf105385E.md)然后这道题还能用线段树来写喵；然后，还有这道题喵[Unusual Entertainment](https://codeforces.com/contest/1899/problem/G) 也是要转化才行喵，似乎主席树维护这样的二维问题还算是挺常见的喵
