@@ -1,4 +1,4 @@
-(A Simple RBS Problem)[https://codeforces.com/contest/2210/problem/D]
+[A Simple RBS Problem](https://codeforces.com/contest/2210/problem/D)
 
 题目允许你交换任意两个不相交的合法括号子串。把这个操作放到树的视角来看，简直不要太直观：这其实就是把树上的两棵子树（或者子森林）连根拔起，然后互相交换它们生长的位置（嫁接）喵！
 
