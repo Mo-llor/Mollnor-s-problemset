@@ -132,7 +132,6 @@ public:
 
 主席树还能维护二维区间上的动态修改问题喵，就像是这个[Sensors](https://codeforces.com/gym/105385/problem/E) [题解喵](/tree/cf105385E.md)然后这道题还能用线段树来写喵；然后，还有这道题喵[Unusual Entertainment](https://codeforces.com/contest/1899/problem/G) [思路喵](/tree/cf1899.md)也是要转化才行喵，似乎主席树维护这样的二维问题还算是挺常见的喵
 
-[Hidden Knowledge of the Ancients](https://codeforces.com/contest/2149/problem/E) 其实双指针能写，但是我拿主席树草过去了，感觉自己有点过拟合了喵
-
 [HH 的项链](https://www.luogu.com.cn/problem/P1972) [题解喵](/tree/HH_的项链.md)这个也是差不多的思路喵，但是因为我找错了二维偏序的两个变量，导致我想了两个小时没想出来喵，正解是离线写的喵，但我毕竟是在练主席树喵，所以就写了在线的写法喵
 
+[Hidden Knowledge of the Ancients](https://codeforces.com/contest/2149/problem/E) 其实双指针能写，但是我拿主席树草过去了，感觉自己有点过拟合了喵
