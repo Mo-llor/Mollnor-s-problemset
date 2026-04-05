@@ -11,6 +11,8 @@
 比如 [Wine Factory (Easy Version)](https://codeforces.com/contest/1919/problem/F1) 这道题喵，
 就是用线段树来处理区间合并的喵，而它的 [hard version](https://codeforces.com/contest/1919/problem/F2) 同样也可以使用线段树来进行处理,但是相应的，复杂很多。
 
+[贪婪大陆](https://www.luogu.com.cn/problem/P2184) 这个是用线段树处理交集个数的喵，思路比较难想喵
+
 # 用上线段树，可以优化很多东西喵
 
 1. 线段树优化dp
