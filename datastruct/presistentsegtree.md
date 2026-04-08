@@ -128,6 +128,8 @@ public:
 
 到这里还是没完，主席树不止能够维护眼前的苟且，我们还能找到在区间中离给定值x最近的值喵
 
+# 二维偏序
+
 [换根区间lca](/tree/cf105911l.md)这题的在线做法就用到了这个东西喵
 
 主席树还能维护二维区间上的动态修改问题喵，就像是这个[Sensors](https://codeforces.com/gym/105385/problem/E) [题解喵](/tree/cf105385E.md)然后这道题还能用线段树来写喵；然后，还有这道题喵[Unusual Entertainment](https://codeforces.com/contest/1899/problem/G) [思路喵](/tree/cf1899.md)也是要转化才行喵，似乎主席树维护这样的二维问题还算是挺常见的喵
@@ -135,3 +137,7 @@ public:
 [HH 的项链](https://www.luogu.com.cn/problem/P1972) [题解喵](/tree/HH_的项链.md)这个也是差不多的思路喵，但是因为我找错了二维偏序的两个变量，导致我想了两个小时没想出来喵，正解是离线写的喵，但我毕竟是在练主席树喵，所以就写了在线的写法喵
 
 [Hidden Knowledge of the Ancients](https://codeforces.com/contest/2149/problem/E) 其实双指针能写，但是我拿主席树草过去了，感觉自己有点过拟合了喵
+
+# 差分
+
+主席树有差分的性质喵，只要维护的是可减的信息，我们就能通过运算，算出那一段上面的线段树，之后再进行线段树的操作就好搞了喵，就比如说这个 (树链上第k小喵)[https://www.luogu.com.cn/problem/P2633] 我们就需要用到这个性质喵，用主席树求区间第k小也是看在他可差分的性质上面喵
