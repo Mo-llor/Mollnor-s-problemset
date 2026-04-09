@@ -143,3 +143,5 @@ public:
 主席树有差分的性质喵，只要维护的是可减的信息，我们就能通过运算，算出那一段上面的线段树，之后再进行线段树的操作就好搞了喵，就比如说这个 [树链上第k小喵](https://www.luogu.com.cn/problem/P2633) 还有[一些要注意的小问题喵](/tree/Count_on_a_tree.md) 我们就需要用到这个性质喵，用主席树求区间第k小也是看在他可差分的性质上面喵
 
 会普通的树上差分了[Odd_Mineral_Resource](https://codeforces.com/contest/1479/problem/D) 那来异或吧喵，因为异或有差分的性质喵，好玩喵，很显然这和校赛的那题是差不多的难度喵
+
+[star_farming](https://codeforces.com/gym/106467/problem/C) 一道很好的题目喵，剪枝很难想得到喵，虽然不深究的话，直接暴力草就过去了(
