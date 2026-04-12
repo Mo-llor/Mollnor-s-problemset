@@ -1,21 +1,6 @@
 这个二分是真神秘啊[khba_Loves_to_Sleep!](https://codeforces.com/contest/2167/problem/E)
 
 ```cpp
-#include<bits/stdc++.h>
-using namespace std;
-typedef long long ll;
-typedef unsigned long long ull;
-typedef __int128 i128;
-typedef pair<int,int> pii;
-typedef pair<ll,ll> pll;
-const int MOD = 998244353;
-const ll INF = 0x3f3f3f3f3f3f3f3f;
-const int N = 1e6 + 10;
-#define int ll
-
-mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
-ll rand(ll l, ll r) {return uniform_int_distribution<ll>(l, r)(rng);}
-
 void solve()
 {	
 	int n,k,x;
@@ -107,17 +92,5 @@ void solve()
 	}
 	cout<<'\n';
 	return;
-}
-signed main()
-{
-	std::ios::sync_with_stdio(false);
-	std::cin.tie(0);
-	ll _ = 1;
-	std::cin>>_;
-	while (_--)
-	{
-		solve();
-	}
-	return 0;
 }
 ```
