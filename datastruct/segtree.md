@@ -35,3 +35,7 @@
 线段树优化建图的板应该是这个喵[Legacy](https://codeforces.com/contest/786/problem/B),没想到几天之内就能写到第二次喵,这道题要开两棵树，一个出树，一个入树喵[代码喵](/tree/Legacy.md)
 
 还有就是 [sensor](/tree/cf105385E.md#线段树喵) 这个想明白了之后就是线段树建图喵，只是要有lazy的思想喵
+
+# 线段树上二分
+
+[Predicting Popularity](https://codeforces.com/contest/2145/problem/E) 但是想二分的东西会很难想喵
