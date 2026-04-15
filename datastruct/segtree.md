@@ -38,4 +38,4 @@
 
 # 线段树上二分
 
-[Predicting Popularity](https://codeforces.com/contest/2145/problem/E) 但是想二分的东西会很难想喵
+[Predicting Popularity](https://codeforces.com/contest/2145/problem/E) 但是想二分的东西会很难想喵，考虑题目里面的条件，我们需要找第一个不满足条件的地方喵
