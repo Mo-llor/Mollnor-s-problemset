@@ -7,6 +7,10 @@ dp的文档，我觉得是最不愁标题是怎么写的喵
 ## 有转移的应该是dp
 [Blood Memories](https://codeforces.com/gym/106161/problem/B)
 
+# 用dp数数喵
+
+[Non-Descending Arrays](https://codeforces.com/contest/2144/problem/C) 这个状态应该很好想喵
+
 # 背包
 
 ## 01背包
