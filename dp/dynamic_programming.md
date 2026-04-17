@@ -23,6 +23,8 @@ dp的文档，我觉得是最不愁标题是怎么写的喵
 
 ## 完全背包
 
+[Inversion_Value_of_a_Permutation](https://codeforces.com/contest/2145/problem/D) 这道题肯定是要放在这里的，至于为什么在这里，那说出来不就是不好玩了吗？
+
 ## 多重背包
 
 ## 分组背包
