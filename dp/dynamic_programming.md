@@ -13,8 +13,6 @@ dp的文档，我觉得是最不愁标题是怎么写的喵
 
 [Non-Descending Arrays](https://codeforces.com/contest/2144/problem/C) 这个状态应该很好想喵
 
-[Looking at Towers](https://codeforces.com/contest/2144/problem/E2) 很难很难的dp喵
-
 # 背包
 
 ## 01背包
@@ -38,6 +36,8 @@ dp的文档，我觉得是最不愁标题是怎么写的喵
 # 状压dp
 
 # 线段树优化dp
+
+[Looking at Towers](https://codeforces.com/contest/2144/problem/E2) 很难很难的dp喵
 
 # 斜率优化dp
 
