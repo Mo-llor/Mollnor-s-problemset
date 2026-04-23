@@ -8,4 +8,5 @@ $$
 median(a) = b_{ \left\lfloor \frac{n + 1}{2} \right\rfloor}
 $$
 
-- $median(a) <= x \iff \sum_{i = 1}^{n}[a_i \leq x] \geq \left\lfloor \frac{n + 1}{2} \right\rfloor \iff \sum_{i = 1}^{n}[a_i > x] \leq \left\lfloor \frac{n}{2} \right\rfloor \iff \sum_{i = 1}^{n}[a_i \leq x] \geq \sum_{i = 1}^{n}[a_i > x]$ 
+- $median(a) \leq x \iff \sum_{i = 1}^{n}[a_i \leq x] \geq \left\lfloor \frac{n + 1}{2} \right\rfloor \iff \sum_{i = 1}^{n}[a_i > x] \leq \left\lfloor \frac{n}{2} \right\rfloor \iff \sum_{i = 1}^{n}[a_i \leq x] \geq \sum_{i = 1}^{n}[a_i > x]$
+- $median(a) \geq x \iff \sum_{i = 1}^{n}[a_i \geq x] > \left\lfloor \frac{n}{2} \right\rfloor \iff \sum_{i = 1}^{n}[a_i < x] < \left\lfloor \frac{n + 1}{2} \right\rfloor \iff \sum_{i = 1}^{n}[a_i \geq x] > \sum_{i = 1}^{n}[a_i < x]$ 
