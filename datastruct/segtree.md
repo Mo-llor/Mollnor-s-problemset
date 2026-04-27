@@ -42,4 +42,4 @@
 
 # 线段树分治
 
-[Building Tree](https://codeforces.com/contest/2222/problem/F) 枚举mex这个小trick我知道，但是我完全不知到要怎么优化喵
+[Building Tree](https://codeforces.com/contest/2222/problem/F) 枚举mex这个小trick我知道，但是我完全不知到要怎么优化喵 [跑得很慢的代码](/tree/Building_Tree.md)
