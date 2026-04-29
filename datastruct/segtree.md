@@ -38,7 +38,7 @@
 
 # 线段树上二分
 
-[Predicting Popularity](https://codeforces.com/contest/2145/problem/E) 但是想二分的东西会很难想喵，考虑题目里面的条件，我们需要找第一个不满足条件的地方喵，[不是很清楚的题解喵](/tree/Predicting Popularity)
+[Predicting Popularity](https://codeforces.com/contest/2145/problem/E) 但是想二分的东西会很难想喵，考虑题目里面的条件，我们需要找第一个不满足条件的地方喵，[不是很清楚的题解喵](/tree/Predicting_Popularity.md)
 
 # 线段树分治
 
