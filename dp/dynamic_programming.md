@@ -41,6 +41,11 @@ dp的文档，我觉得是最不愁标题是怎么写的喵
 
 # 斜率优化dp
 
+# 数位dp
+[数](https://atcoder.jp/contests/tdpc/tasks/tdpc_number)
+
+[Magic Numbers](http://codeforces.com/contest/628/problem/D)
+
 # 排列dp
 
 [排列dp的一些方法喵](/dp/排列dp.md)
